@@ -1,0 +1,23 @@
+REST API
+
+Create and import a mock database
+
+GET /users - HTML Document Render
+GET /api/users - List all users JSON
+
+GET /api/users/1 - Get the user with id 1
+GET /api/users/2 - Get the user with id 2
+
+POST /api/users - create a new user 
+Use POSTMAN for sending POST requests
+
+PATCH /api/users/1 - update the user with id 1
+
+DELETE /api/users/1 - delete the user with id 1
+
+
+DYNAMIC PATH PARAMETER
+GET /api/users/:id
+:id -> it is a dynamic path parameter
+
+USE MOCKAROO TO GENERATE A TESTING DATABASE AS PER NEED
